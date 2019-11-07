@@ -1,7 +1,24 @@
-* {
-  border: 1px solid grey;
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url("https://img.freepik.com/free-photo/milky-way-starry-sky-background_34011-265.jpg?size=626&ext=jpg");
+  height: 50%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
 }
 
-bg-blue {
-  color: rgb(110 172 213);
+.container {
+  border: 1px solid black;
+}
+.row {
+  border: 2px solid fuchsia;
+}
+.col {
+  border: 2px solid greenyellow;
+  
 }
