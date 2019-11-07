@@ -4,18 +4,20 @@ body, html {
 .bg {
   /* background-image: url("https://img.freepik.com/free-photo/milky-way-starry-sky-background_34011-265.jpg?size=626&ext=jpg"); */
 
-  background-image: url("https://i0.wp.com/www.rocketstem.org/wp-content/uploads/2013/11/MarsMDRS-Hi-Res-cropped.jpg");
+  background-image: url("https://www.sciencealert.com/images/articles/processed/124-mars_600.jpg");
   height: 50%;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
 img {
   background-image: url("/Users/jdfuller/Downloads/paul-alien-png-extraterrestrial-life-film-clipart-ac413edced372bb6.png");
 }
 .logo {
   font-size: 100%;
+  text-shadow: 1px 1px black;
 }
 .container {
   border: 1px solid black;
@@ -31,4 +33,3 @@ img {
 #bottom-layer {
   height: 50vh;
 }
-
