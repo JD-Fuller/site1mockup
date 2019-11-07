@@ -26,6 +26,9 @@ img {
 .col {
   border: 2px solid greenyellow;
   font-family: 'Rambla', 'Jockey One', 'Oswald', 'Roboto Condensed', sans-serif;
-
-  
 }
+
+#bottom-layer {
+  height: 50vh;
+}
+
