@@ -15,14 +15,14 @@ img {
   font-size: 80pt;
   text-shadow: 1px 1px black;
 }
-.container {
+/* .container {
   border: 1px solid black;
 }
 .row {
   border: 2px solid fuchsia;
-}
+} */
 .col {
-  border: 2px solid greenyellow;
+  /* border: 2px solid greenyellow; */
   font-family: 'Rambla', 'Jockey One', 'Oswald', 'Roboto Condensed', sans-serif;
 }
 
@@ -36,8 +36,9 @@ img {
 } */
 .card-body {
   color: grey;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  display: inline;
   align-items: center;
 }
 .card-title {
@@ -49,7 +50,14 @@ img {
   font-family: montserrat;
   font-size: 10pt;
 }
-.longcard {
+.longcard  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  vertical-align: middle;
 }
+
+.card-body {
+ 
+}
+
